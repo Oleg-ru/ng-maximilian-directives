@@ -1,12 +1,12 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {LearningResources} from '../components/learning-resources/learning-resources';
+import {Auth} from '../components/auth/auth';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [LearningResources, Auth],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('ng-maximilian-directives');
 }
