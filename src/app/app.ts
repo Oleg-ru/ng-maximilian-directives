@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import {LearningResources} from '../components/learning-resources/learning-resources';
 import {Auth} from '../components/auth/auth';
 
