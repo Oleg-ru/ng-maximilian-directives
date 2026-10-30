@@ -9,4 +9,5 @@ import {Auth} from '../components/auth/auth';
   templateUrl: './app.html',
 })
 export class App {
+  
 }
