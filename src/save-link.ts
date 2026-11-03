@@ -10,7 +10,7 @@ export class SaveLinkDirective {
   queryParam = input('myapp', {alias: 'appSafeLink'})
 
   constructor() {
-    console.log('Safe link directive is activated')
+    console.log('Safe link directive is activated');
   }
 
   onConfirmLeavePage(event: MouseEvent) {
