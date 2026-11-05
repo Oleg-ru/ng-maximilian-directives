@@ -3,9 +3,10 @@ import {LearningResources} from '../components/learning-resources/learning-resou
 import {Auth} from '../components/auth/auth';
 import {AuthService} from '../components/auth/auth.service';
 import {AuthDirective} from '../components/auth/auth-directive';
+import {Log} from '../components/log';
 
 @Component({
-  imports: [LearningResources, Auth, Auth, AuthDirective],
+  imports: [LearningResources, Auth, AuthDirective, Log],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',

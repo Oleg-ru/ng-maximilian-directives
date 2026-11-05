@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {SaveLinkDirective} from '../../save-link';
+import {Log} from '../log';
 
 @Component({
   selector: 'app-learning-resources',
@@ -7,7 +8,8 @@ import {SaveLinkDirective} from '../../save-link';
   styleUrl: './learning-resources.css',
   standalone: true,
   imports: [
-    SaveLinkDirective
+    SaveLinkDirective,
+    Log
   ]
 })
 export class LearningResources {}
